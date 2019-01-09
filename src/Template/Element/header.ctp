@@ -17,9 +17,10 @@
 		  <li><a href="#">How it Works</a></li>
 		  <li><a href="#">Talk to an Expert</a></li>
 		  <li><a href="#">Community Forum</a></li>
-		  <li><a href="register.php">Register</a></li>
-		  <li><a href="profile_step_one.php">Enter into the website</a></li>
-		</ul>
+		  <li><?php echo	$this->Html->link('Register', array('controller' => 'users', 'action' => 'add')); 
+			?></li>
+			 <li><?php echo	$this->Html->link('Enter into the website', array('controller' => 'users', 'action' => 'login')); 
+			?></li></ul>
 	  </div>
 	</div>
   </nav> <!--header nav -->

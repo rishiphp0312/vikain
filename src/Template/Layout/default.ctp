@@ -63,7 +63,13 @@ div.message.hidden {
 	?>
 
 </style>
-  <body class="loginBg">
+  <body  <?php 
+  if(isset($homepage) &&  $homepage=== true){
+	  ?>
+class="loginBg"	  
+	  <?php
+	  
+  }?> >
 <?php 
 echo $this->element('header');//header.ctp
 ?>
