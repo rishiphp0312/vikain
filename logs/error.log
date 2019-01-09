@@ -11994,3 +11994,161 @@ Stack Trace:
 #1 {main}
 
 
+2019-01-09 13:03:12 Error: [Cake\View\Exception\MissingTemplateException] Template file "Home\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Home\\display.ctp',
+)
+Request URL: /policyapp2/vikain/home/display
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\View\View.php(585): Cake\View\View->_getViewFileName('Home\\display')
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#2 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(120): Cake\Controller\Controller->render()
+#3 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#4 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#5 {main}
+
+
+2019-01-09 13:03:46 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/users/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-09 13:03:58 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/users/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/users/edit
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-09 13:05:23 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/users/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/users/edit
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-09 13:05:25 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/users/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/users/edit
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-09 13:05:30 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/users/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-09 13:06:37 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/users/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-09 13:06:44 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/users/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/users/edit
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-09 13:06:47 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/users/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/users/login
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-09 13:06:49 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/users/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/users/add
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+

@@ -64,78 +64,25 @@ div.message.hidden {
 
 </style>
 <body> 
-  <header>
-  <nav class="navbar">
-  
-	<div class="container-fluid">
-	<div class="navbar-header" >
-	</div>
-	  <div class="navbar-header">
-		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>
-		  <span class="icon-bar"></span>                        
-		</button>
-		<a href="index.php" class="navbar-brand"><img src="img/logo.jpg" alt="My Guru"></a>
-	  </div>
-	  <div class="collapse navbar-collapse" id="myNavbar">
-		<ul class="nav navbar-nav navbar-right">
-		  <li><a href="#">How it Works</a></li>
-		  <li><a href="#">Talk to an Expert</a></li>
-		  <li><a href="#">Community Forum</a></li>
-		  <li><a href="register.php">Register</a></li>
-		  <li><a href="profile_step_one.php">Enter into the website</a></li>
-		</ul>
-	  </div>
-	</div>
-  </nav> <!--header nav -->
-</header>    
+<?php 
+echo $this->element('header');//header.ctp
+?>
+    
 
 
  <section>
       <div class="container-fluid">
-	  <div class="col-md-2 leftMenuArea">
-			<ul>
-
-									<li>			<?php echo	$this->Html->link('Modify User', 
-									array('controller' => 'users', 'action' => 'edit')); 
-			?>
-									
-									
-									</li>
-
-									
-									<?php //echo	$this->Html->link('Profile', array('controller' => 'users', 'action' => 'edit'));?> </li>
-
-			<li><?php echo	$this->Html->link('Add Policy', array('controller' => 'policies', 'action' => 'add')); 
-			?></li>
-			<li><a href="user_sumarry.php">User Summary</a></li>
-			<li><a href="claim_summaries.php">Claim Summaries</a></li>
-			<li><a href="talk_to_an_expert.php">Talk to an Expert</a></li>
-				<?php  if ($this->request->session()->read('Auth.User')){ ?>
-					<li>
-					<?=$this->Html->Link(__('Log out'),['controller'=>'users','action'=>'logout']) ?>  </li>
-	<?php }else{  ?><li>
-		 <?=$this->Html->Link(__('Login'),['controller'=>'users','action'=>'login']) ?>  
-
-				</li>				<?php } ?>
-</ul>
-		</div>
+	  <?php 
+			echo $this->element('leftmenu');//header.ctp
+		?>
+	  
 		 <?php echo $this->fetch('content') ?>
       </div>
 </section>
-	<footer class="footer">
-	<ul>
-		<li class="active"><a href="index.php">Home</a></li>
-		<li><a href="#">About</a></li>
-		<li><a href="#">Jobs</a></li>
-		<li><a href="#">Advertising</a></li>
-		<li><a href="#">Investors</a></li>
-		<li><a href="#">Press</a></li>
-		<li><a href="#">Blog</a></li>
-		<li><a href="#">Help</a></li>
-	</ul>
-	</footer>
+<?php 
+echo $this->element('footer');//header.ctp
+?>
+	
 
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   </body>
