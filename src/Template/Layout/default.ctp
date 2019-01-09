@@ -63,7 +63,7 @@ div.message.hidden {
 	?>
 
 </style>
-<body> 
+  <body class="loginBg">
 <?php 
 echo $this->element('header');//header.ctp
 ?>
@@ -73,10 +73,12 @@ echo $this->element('header');//header.ctp
  <section>
       <div class="container-fluid">
 	  <?php 
-			echo $this->element('leftmenu');//header.ctp
-		?>
+	  if(isset($homepage) &&  $homepage=== true){}else{
+	  echo $this->element('leftmenu');
+	  }
+	  ?>
 	  
-		 <?php echo $this->fetch('content') ?>
+		 <?php echo $this->fetch('content') ;?>
       </div>
 </section>
 <?php 
