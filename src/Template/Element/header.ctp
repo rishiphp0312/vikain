@@ -10,7 +10,10 @@
 		  <span class="icon-bar"></span>
 		  <span class="icon-bar"></span>                        
 		</button>
-		<a href="index.php" class="navbar-brand"><img src="img/logo.jpg" alt="My Guru"></a>
+		           <?php echo $this->Html->image('logo.jpg', array('alt' => 'CakePHP', 'border' => '0', 'url' => ['controller' => 'Home', 'action' => 'display'])); ?>
+
+		
+				
 	  </div>
 	  <div class="collapse navbar-collapse" id="myNavbar">
 		<ul class="nav navbar-nav navbar-right">

@@ -12360,3 +12360,255 @@ Stack Trace:
 #3 {main}
 
 
+2019-01-10 10:15:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:19:03 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::img() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => 'img',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/home/img/logo.jpg
+Referer URL: http://localhost/policyapp2/vikain/home/display
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-10 10:19:04 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:20:42 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::<imgSrc=() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => '<imgSrc=',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/home/%3Cimg%20src=
+Referer URL: http://localhost/policyapp2/vikain/home/display
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-10 10:20:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:20:56 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::<imgSrc=() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => '<imgSrc=',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/home/%3Cimg%20src=
+Referer URL: http://localhost/policyapp2/vikain/home/display
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-10 10:20:57 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:21:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:21:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:22:03 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::<imgSrc=() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => '<imgSrc=',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/home/%3Cimg%20src=
+Referer URL: http://localhost/policyapp2/vikain/home/display
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-10 10:24:57 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::<imgSrc=() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => '<imgSrc=',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/home/%3Cimg%20src=
+Referer URL: http://localhost/policyapp2/vikain/home/display
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-10 10:25:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:25:39 Error: [Cake\Controller\Exception\MissingActionException] Action HomeController::<imgSrc=() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'HomeController',
+  'action' => '<imgSrc=',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /policyapp2/vikain/home/%3Cimg%20src=
+Referer URL: http://localhost/policyapp2/vikain/home/display
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#1 D:\xampp\htdocs\policyapp2\vikain\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\HomeController))
+#2 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 {main}
+
+
+2019-01-10 10:25:39 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:26:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:26:34 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:27:22 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2019-01-10 10:27:28 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Css could not be found.
+Exception Attributes: array (
+  'class' => 'Css',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /policyapp2/vikain/css/bootstrap.min.css.map
+Stack Trace:
+#0 D:\xampp\htdocs\policyapp2\vikain\webroot\index.php(36): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
